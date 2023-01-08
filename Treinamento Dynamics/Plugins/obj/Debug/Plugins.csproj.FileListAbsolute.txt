@@ -28,3 +28,5 @@ C:\Users\Ana\Documents\Dynamics\Treinamento Dynamics\TreinamentoDynamics\Treinam
 C:\Users\Ana\Documents\Dynamics\Treinamento Dynamics\TreinamentoDynamics\Treinamento Dynamics\Plugins\obj\Debug\Plugins.csproj.CopyComplete
 C:\Users\Ana\Documents\Dynamics\Treinamento Dynamics\TreinamentoDynamics\Treinamento Dynamics\Plugins\obj\Debug\Plugins.dll
 C:\Users\Ana\Documents\Dynamics\Treinamento Dynamics\TreinamentoDynamics\Treinamento Dynamics\Plugins\obj\Debug\Plugins.pdb
+C:\Users\Ana\Documents\Dynamics\Treinamento Dynamics\TreinamentoDynamics\Treinamento Dynamics\Plugins\bin\Debug\Microsoft.Xrm.Sdk.Workflow.dll
+C:\Users\Ana\Documents\Dynamics\Treinamento Dynamics\TreinamentoDynamics\Treinamento Dynamics\Plugins\bin\Debug\Microsoft.Xrm.Sdk.Workflow.xml

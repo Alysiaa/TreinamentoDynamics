@@ -20,7 +20,7 @@ namespace Plugins
 
             if (duracao == 0)
             {
-                throw new InvalidPluginExecutionException("Campo Duração não pode ser Zero");
+                throw new InvalidPluginExecutionException("Campo Duração não pode ser Zero!");
             }
         }
     }
