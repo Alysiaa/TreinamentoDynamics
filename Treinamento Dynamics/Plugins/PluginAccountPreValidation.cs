@@ -36,8 +36,8 @@ namespace Plugins
 
                 if (!entidadeContexto.Contains("telephone1"))
                 {
+                    //Throw aborta o processo;
                     throw new InvalidPluginExecutionException("Campo Telefone principal é obrigatório!");
-
                 }
             }
         }
