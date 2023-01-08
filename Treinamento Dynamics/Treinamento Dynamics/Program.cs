@@ -33,9 +33,9 @@ namespace Treinamento_Dynamics
             Console.ReadLine();
         }
         #endregion
-        
-        //1ºTeste - Criando o método Fetch XML
+                
         #region FetchXML1
+        //1ºTeste - Criando o método Fetch XML
         static void FetchXML(CrmServiceClient crmService)
         {
             string query = @"<fetch version= '1.0' output-format= 'xml-platform' mapping= 'logical' distinct= 'false'>

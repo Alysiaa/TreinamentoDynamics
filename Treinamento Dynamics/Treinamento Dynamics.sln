@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Treinamento Dynamics", "Treinamento Dynamics\Treinamento Dynamics.csproj", "{B64414DB-2772-4126-91A3-37FB74A987B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugins", "Plugins\Plugins.csproj", "{4447B731-0970-422F-822E-8B5EA6965583}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B64414DB-2772-4126-91A3-37FB74A987B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B64414DB-2772-4126-91A3-37FB74A987B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B64414DB-2772-4126-91A3-37FB74A987B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4447B731-0970-422F-822E-8B5EA6965583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4447B731-0970-422F-822E-8B5EA6965583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4447B731-0970-422F-822E-8B5EA6965583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4447B731-0970-422F-822E-8B5EA6965583}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
