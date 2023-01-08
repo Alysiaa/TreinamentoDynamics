@@ -12,10 +12,13 @@ namespace Treinamento_Dynamics
         static void Main(string[] args)
         {
             var crmService = new Conexao().ObterConexao();
-            FetchXML(crmService);
-            //CriacaoLinq(crmService);
+            QueryExpression(crmService);
+            // CriacaoLinq(crmService);
+            // FetchXML(crmService);
+            
         }
-
+        #region CriacaoLinq
+        //CriacaoLinq(crmService)
         static void CriacaoLinq(CrmServiceClient crmService)
         {
             OrganizationServiceContext context = new OrganizationServiceContext(crmService);
@@ -29,10 +32,9 @@ namespace Treinamento_Dynamics
             context.SaveChanges();
             Console.ReadLine();
         }
-
+        #endregion
+        
         //1ºTeste - Criando o método Fetch XML
-
-
         #region FetchXML1
         static void FetchXML(CrmServiceClient crmService)
         {
@@ -49,7 +51,7 @@ namespace Treinamento_Dynamics
 
             EntityCollection colecao = crmService.RetrieveMultiple(new FetchExpression(query));
             foreach (var item in colecao.Entities)
-            #endregion
+           
             {
                 Console.WriteLine(item["name"]);
                 if (item.Attributes.Contains("telephone1"))
@@ -59,7 +61,24 @@ namespace Treinamento_Dynamics
             }
             Console.ReadLine();
         }
+        #endregion
 
+        #region QueryExpression
+        static EntityCollection QueryExpression(CrmServiceClient crmService)
+        {
+        QueryExpression queryExpression= new QueryExpression("account");
 
+            queryExpression.Criteria.AddCondition("name", ConditionOperator.Like, "%Linq%");
+            queryExpression.ColumnSet = new ColumnSet("name");
+
+            EntityCollection colecaoEntidades = crmService.RetrieveMultiple(queryExpression);
+            foreach (var item in colecaoEntidades.Entities)
+            {
+                Console.WriteLine(item["name"]);
+            }
+            Console.ReadKey();
+            return colecaoEntidades;    
+        }
+        #endregion
     }
 }
