@@ -1,0 +1,3 @@
+C:\Users\Ana\Documents\Dynamics\Treinamento Dynamics\TreinamentoDynamics\Treinamento Dynamics\Treinamento Dynamics\obj\Debug\Treinamento Dynamics.csproj.AssemblyReference.cache
+C:\Users\Ana\Documents\Dynamics\Treinamento Dynamics\TreinamentoDynamics\Treinamento Dynamics\Treinamento Dynamics\obj\Debug\Treinamento Dynamics.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ana\Documents\Dynamics\Treinamento Dynamics\TreinamentoDynamics\Treinamento Dynamics\Treinamento Dynamics\obj\Debug\Treinamento Dynamics.csproj.CoreCompileInputs.cache
